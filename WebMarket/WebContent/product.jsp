@@ -1,7 +1,7 @@
 <%@ page contentType="text.html; charset=utf-8"%>
 <%@ page import="java.util.ArrayList" %>
 <%@ page import=dto.Product %>
-<sjp:usrBean id="productDAO" class="dao.ProductRepository" scope="session"/>
+<jsp:useBean id="productDAO" class="dao.ProductRepository" scope="session"/>
 <html>
 <head>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
