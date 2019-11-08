@@ -8,7 +8,8 @@
 <style>
 .jumbotron { width: 100%; height: 100px; background-color: #A4A4A4; }
 </style>
-
+<a class="menu-Login" href="./addProduct.jsp">상품등록</a>
+<a class="menu-Login" href="./out02.jsp">로그인</a>
 <%@ include file="menu.jsp" %>
 <%! String greeting = "웹 쇼핑물에 오신 것을 환영합니다";
 String tagline ="Welcome to Web Market!";%>
